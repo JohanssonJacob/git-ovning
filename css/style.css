@@ -1,3 +1,21 @@
-h1 {
-    background: red;
+.gallery .gallery-titel {
+    font-size: 50px;
+}
+
+.gallery .bilddiv {
+    display: flex;
+    height: 500px;
+    width: 500px;
+    flex-direction: column;
+}
+
+.gallery .bilddiv img {
+    height: 200px;
+    width: 200px;
+    margin: 25px;
+}
+
+.gallery .bilddiv .rows {
+    display: flex;
+    flex-direction: row;
 }
