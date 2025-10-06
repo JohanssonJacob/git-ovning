@@ -18,7 +18,6 @@
 .gallery .bilddiv .rows {
     display: flex;
     flex-direction: row;
-* {
     margin: 0px;
     padding: 0px;
 }
