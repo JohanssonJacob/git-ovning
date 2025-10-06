@@ -7,6 +7,10 @@ body {
     background-color: #f2f2f2;
 }
 
+:root {
+    --main-color: beige;
+    --accent-color: #ffe4c4;
+}
 .gallery .gallery-titel {
     font-size: 50px;
 }
@@ -42,6 +46,7 @@ h1 {
     background-color: beige;
     height: 100px;
     margin-bottom: 5px;
+    background-color: var(--main-color);
 }
 
 nav {
@@ -51,12 +56,12 @@ nav {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #ffe4c4;
+    background-color: var(--accent-color);
 }
 
 .header a {
     text-decoration: none;
-    background-color: #ffe4c4;
+    background-color: var(--accent-color);
     color: black;
     text-align: center;
     flex-basis: 100vw;
@@ -86,4 +91,16 @@ nav {
 footer {
     height: 65px;
     background-color: bisque;
+}
+
+body {
+    margin: 0px;
+}
+
+footer {
+    background-color: var(--accent-color);
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 10px;
+    text-align: center;
 }
