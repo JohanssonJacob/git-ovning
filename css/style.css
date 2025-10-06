@@ -1,3 +1,12 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
 .gallery .gallery-titel {
     font-size: 50px;
 }
@@ -18,9 +27,6 @@
 .gallery .bilddiv .rows {
     display: flex;
     flex-direction: row;
-* {
-    margin: 0px;
-    padding: 0px;
 }
 
 h1 {
@@ -34,10 +40,13 @@ h1 {
     justify-content: center;
     align-items: center;
     background-color: beige;
+    height: calc(100vh - 650px);
+    margin-bottom: 5px;
 }
 
 nav {
     width: 100vw;
+    height: 40px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -56,4 +65,24 @@ nav {
 
 .header a:hover {
     background-color: #f9d09e;
+}
+
+.main-text {
+    height: calc(100vh - 198px);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.text-container {
+    flex-basis: 500px;
+    width: 500px;
+    background-color: bisque;
+}
+
+footer {
+    height: 65px;
+    background-color: bisque;
 }
