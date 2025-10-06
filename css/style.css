@@ -76,11 +76,17 @@ nav {
     align-content: space-around;
 }
 
-.text-container {
+.text-container, .about {
     flex-basis: 500px;
     min-width: 250px;
     max-width: 500px;
     background-color: bisque;
+}
+
+.text-container {
+    flex-basis: 500px;
+    min-width: 250px;
+    max-width: 500px;
 }
 
 footer {
